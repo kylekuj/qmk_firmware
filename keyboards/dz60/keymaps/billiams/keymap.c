@@ -52,6 +52,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |     |  F1 |  F2 |  F3 |  F4 |  F5 |  F6 |  F7 |  F8 |  F9 | F10 | F11 | F12 |    DEL    |
    * |-----------------------------------------------------------------------------------------+
 <<<<<<< HEAD
+<<<<<<< HEAD
    * |        |RBB T|RGB M| Hue-| Hue+| Sat-| Sat+| Val-| Val+| Mute | Vol-| Vol+| Prev | Next |
    * |-----------------------------------------------------------------------------------------+
    * |         |     |     |     |     |     | Left| Down| Up |Right|      |      | Play/Pause |
@@ -61,13 +62,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |      |       |       |                                   |     |      | HOME|PG_DN| END |
 =======
    * |        |RBB T|RGB M| Hue+| Hue-| Sat+| Sat-| Val+| Val-|     |     |     | Prev | Next  |
+=======
+   * |        |RBB T|RGB M| Hue-| Hue+| Sat-| Sat+| Val-| Val+|     |     | MUTE | Vol- | Vol+ |
+>>>>>>> cd379c69a... Modified keymap and updated readme.
    * |-----------------------------------------------------------------------------------------+
-   * |         | BL T| BL M| BL- | BL+ |     |     |     |     |     | Vol-| Vol+|  Play/Pause |
+   * |         |     |     |     |     |     |     |     |    |     | Prev | Next | Play/Pause |
    * |-----------------------------------------------------------------------------------------+
    * |           |     |     |     |     |     |     |     |Scr- |Scr+ |           |PG_UP|RESET|
    * |-----------------------------------------------------------------------------------------+
+<<<<<<< HEAD
    * |      |       |       |            Play/Pause             |     |      | HOME|PG_DN| END |
 >>>>>>> 156fd4e96... Initial commit
+=======
+   * |      |       |       |                                   |     |      | HOME|PG_DN| END |
+>>>>>>> cd379c69a... Modified keymap and updated readme.
    * `-----------------------------------------------------------------------------------------'
    */
 
@@ -80,10 +88,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       _______, _______, _______, _______, _______, _______, _______, _______, KC_HOME, KC_PGDOWN, KC_END
 =======
       ______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,  KC_F10, KC_F11, KC_F12, ______, KC_DEL,
+<<<<<<< HEAD
       ______, RGB_TOG, RGB_MOD, RGB_HUI, RGB_HUD, RGB_SAI, RGB_SAD, RGB_VAI, RGB_VAD, ______, ______, ______, KC_MEDIA_REWIND, KC_MEDIA_FAST_FORWARD,
       ______, BL_TOGG, BL_STEP, BL_DEC, BL_INC, ______, ______, ______, ______, ______, KC__VOLDOWN, KC__VOLUP,
       KC_MEDIA_PLAY_PAUSE, ______, ______, ______, ______, ______, ______, ______, ______, KC_BRIGHTNESS_DOWN, KC_BRIGHTNESS_UP, ______, ______, KC_PGUP, RESET,
       ______, ______, ______, KC_MEDIA_PLAY_PAUSE, KC_MEDIA_PLAY_PAUSE, KC_MEDIA_PLAY_PAUSE, ______, ______, KC_HOME, KC_PGDOWN, KC_END
 >>>>>>> 156fd4e96... Initial commit
+=======
+      ______, RGB_TOG, RGB_MOD, RGB_HUD, RGB_HUI, RGB_SAD, RGB_SAI, RGB_VAD, RGB_VAI, ______, ______, KC_MUTE, KC__VOLDOWN, KC__VOLUP,
+      ______, ______, ______, ______, ______, ______, ______, ______, ______, ______, KC_MRWD, KC_MFFD,
+      KC_MPLY, ______, ______, ______, ______, ______, ______, ______, ______, KC_BRID, KC_BRIU, ______, ______, KC_PGUP, RESET,
+      ______, ______, ______, ______, ______, ______, ______, ______, KC_HOME, KC_PGDOWN, KC_END
+>>>>>>> cd379c69a... Modified keymap and updated readme.
       ),
 };
