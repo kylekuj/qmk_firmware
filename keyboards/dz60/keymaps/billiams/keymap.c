@@ -60,6 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |-----------------------------------------------------------------------------------------+
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    * |        |RBB T|RGB M| Hue-| Hue+| Sat-| Sat+| Val-| Val+| Mute | Vol-| Vol+| Prev | Next |
    * |-----------------------------------------------------------------------------------------+
    * |         |     |     |     |     |     | Left| Down| Up |Right|      |      | Play/Pause |
@@ -72,8 +73,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 =======
    * |        |RBB T|RGB M| Hue-| Hue+| Sat-| Sat+| Val-| Val+|     |     | MUTE | Vol- | Vol+ |
 >>>>>>> cd379c69a... Modified keymap and updated readme.
+=======
+   * |        |RBB T|RGB M| Hue-| Hue+| Sat-| Sat+| Val-| Val+|     |     | Mute | Prev | Next |
+>>>>>>> a41e6804f... swapped media control keys
    * |-----------------------------------------------------------------------------------------+
-   * |         |     |     |     |     |     |     |     |    |     | Prev | Next | Play/Pause |
+   * |         |     |     |     |     |     |     |     |    |     | Vol- | Vol+ | Play/Pause |
    * |-----------------------------------------------------------------------------------------+
    * |           |     |     |     |     |     |     |     |Scr- |Scr+ |           |PG_UP|RESET|
    * |-----------------------------------------------------------------------------------------+
@@ -110,8 +114,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 >>>>>>> cd379c69a... Modified keymap and updated readme.
 =======
       _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,  KC_F10, KC_F11, KC_F12, _______, KC_DEL,
-      _______, RGB_TOG, RGB_MOD, RGB_HUD, RGB_HUI, RGB_SAD, RGB_SAI, RGB_VAD, RGB_VAI, _______, _______, KC_MUTE, KC__VOLDOWN, KC__VOLUP,
-      _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_MRWD, KC_MFFD,
+      _______, RGB_TOG, RGB_MOD, RGB_HUD, RGB_HUI, RGB_SAD, RGB_SAI, RGB_VAD, RGB_VAI, _______, _______, _______, KC_MRWD, KC_MFFD,
+      _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_MUTE, KC__VOLDOWN, KC__VOLUP,
       KC_MPLY, _______, _______, _______, _______, _______, _______, _______, _______, KC_BRID, KC_BRIU, _______, _______, KC_PGUP, RESET,
       _______, _______, _______, _______, _______, _______, _______, _______, KC_HOME, KC_PGDOWN, KC_END
 >>>>>>> 42cb78f98... Made requested changes in PR.
