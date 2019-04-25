@@ -28,6 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |-----------------------------------------------------------------------------------------+
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    * | Ctrl |  Alt  |  Cmd  |              Space                | Alt |  Fn  |  L  |  D  |  R  |
 =======
    * | Ctrl |  Alt  |  Cmd  |              Space                | Cmd |  Fn  |  L  |  D  |  R  |
@@ -35,6 +36,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 =======
    * | Ctrl |  Opt  |  Cmd  |              Space                | Alt |  Fn  |  L  |  D  |  R  |
 >>>>>>> 89e8e0d27... updated right alt key to apply shift key for emacs
+=======
+   * | Ctrl |  Alt  |  Cmd  |              Space                | Alt |  Fn  |  L  |  D  |  R  |
+>>>>>>> 57a6ea11d... updated R_Alt to remove shift
    * `-----------------------------------------------------------------------------------------'
    */
 
@@ -55,11 +59,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       MO(1), KC_A, KC_S, KC_D, KC_F, KC_G, KC_H, KC_J, KC_K, KC_L, KC_SCLN, KC_QUOT, KC_ENT,
       KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, _______, RSFT_T(KC_SLSH) , KC_UP, KC_ESCAPE,
 <<<<<<< HEAD
+<<<<<<< HEAD
       KC_LCTL, KC_LALT, KC_LGUI, KC_SPC, KC_SPC, KC_SPC, KC_RGUI, MO(1), KC_LEFT, KC_DOWN, KC_RIGHT
 >>>>>>> 156fd4e96... Initial commit
 =======
       KC_LCTL, KC_LALT, KC_LGUI, KC_SPC, KC_SPC, KC_SPC, LSFT(KC_RALT), MO(1), KC_LEFT, KC_DOWN, KC_RIGHT
 >>>>>>> 89e8e0d27... updated right alt key to apply shift key for emacs
+=======
+      KC_LCTL, KC_LALT, KC_LGUI, KC_SPC, KC_SPC, KC_SPC, KC_RALT, MO(1), KC_LEFT, KC_DOWN, KC_RIGHT
+>>>>>>> 57a6ea11d... updated R_Alt to remove shift
       ),
 
   /* FN Layer
