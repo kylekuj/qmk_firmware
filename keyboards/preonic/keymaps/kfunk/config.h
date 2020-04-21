@@ -10,11 +10,11 @@
                                 }
 #endif
 
-// Adjust the tapping term
-#ifdef TAPPING_TERM
-#undef TAPPING_TERM
-#endif // TAPPING_TERM
-#define TAPPING_TERM 175
+// Adjust the tapping term (uncomment all of the below)
+// #ifdef TAPPING_TERM
+// #undef TAPPING_TERM
+// #endif // TAPPING_TERM
+// #define TAPPING_TERM 175
 
 #define MUSIC_MASK (keycode != KC_NO)
 
